@@ -1,0 +1,14 @@
+# Initialize a new local repository
+git init
+
+# Clone a project from a URL (like GitHub)
+git clone <url>
+
+# Stage a specific file for a commit
+git add <file-name>
+
+# Stage ALL changed files
+git add .
+
+# Save your staged changes with a descriptive message
+git commit -m "Brief description of what you fixed/added"
