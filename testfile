@@ -24,3 +24,6 @@ git stash pop
 
 # Apply a specific commit from another branch to your current one
 git cherry-pick <commit-hash>
+
+# Open an interface to edit the last 5 commits
+git rebase -i HEAD~5
