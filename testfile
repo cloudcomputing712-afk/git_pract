@@ -12,3 +12,12 @@ git add .
 
 # Save your staged changes with a descriptive message
 git commit -m "Brief description of what you fixed/added"
+
+# Save your current messy changes and clear the workspace
+git stash
+
+# List all your stashed changes
+git stash list
+
+# Bring your changes back and remove them from the "drawer"
+git stash pop
