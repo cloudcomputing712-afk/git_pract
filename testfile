@@ -33,3 +33,9 @@ git tag -a v1.0 -m "Release version 1.0"
 
 # Push your tags to the server
 git push origin --tags
+
+# Search for the word "API_KEY" in all files in the repository
+git grep "API_KEY"
+
+# Search for "API_KEY" in the commit messages
+git log --grep="API_KEY"
