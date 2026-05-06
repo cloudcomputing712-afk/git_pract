@@ -27,3 +27,9 @@ git cherry-pick <commit-hash>
 
 # Open an interface to edit the last 5 commits
 git rebase -i HEAD~5
+
+# Create a tag for the current commit
+git tag -a v1.0 -m "Release version 1.0"
+
+# Push your tags to the server
+git push origin --tags
